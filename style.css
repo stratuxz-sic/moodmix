@@ -1,0 +1,87 @@
+
+
+body{
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("images/dj-setup.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: white;
+}
+
+.container{
+  max-width: 900px;
+  margin: auto;
+}
+
+form, 
+.card{
+  background: rgba(30, 30, 30, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.card{
+  transition: all 0.2s ease;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+input,
+select,
+textarea, 
+button{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+button{
+  background: purple;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background: darkmagenta;
+  transform: scale(1.02);
+}
+
+.entries{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.mood{
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.positivity{
+  background: goldenrod;
+  color: black;
+}
+
+.down{
+  background: #092093;
+}
+
+.calm{
+  background: #7c5cff;
+}
+
+.energetic{
+  background: rgb(218, 32, 134);
+}
